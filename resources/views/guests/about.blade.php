@@ -12,7 +12,7 @@
 					About
 				</div>
 
-				<div class="card-body">
+				<div class="card-body mb-0 pb-0">
 					<div class="form-group form-row">
 						<div class="col-md-12">
 							<h4>SISTEM INFORMASI PENILAIAN</h4>
@@ -21,7 +21,7 @@
 							<h5>SMK NH Multimedia Poncokusumo</h5>
 						</div>
 
-						<p class="card-text">
+						<p class="card-text mb-0 pb-0">
 							Sistem yang bisa meminimalkan kesalahan, mengoptimalkan kecepatan pemrosesan data dan
 							menghasilkan informasi yang sesuai kebutuhan sehingga SMK NH Multimedia bisa melakukan
 							akselerasi untuk kemajuan sekolah kedepan.

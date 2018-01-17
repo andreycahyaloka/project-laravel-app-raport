@@ -12,10 +12,10 @@
 					Tambah
 				</div>
 
-				<div class="card-body">
+				<div class="card-body mb-0 pb-0">
 					<h4 class="card-title">Data Guru</h4>
 					<h6 class="card-subtitle mb-2 text-muted">Masukkan Data Guru</h6>
-					<p class="card-text">
+					<p class="card-text mb-0 pb-0">
 						{!! Form::open([
 								'route' => ['guru.store'],
 								'method' => 'POST',
@@ -59,7 +59,7 @@
 
 								<div class="col-md-6">
 							{{ Form::text('tempat_lahir', null, [
-									'class' => 'form-control',
+									'class' => 'form-control mb-2',
 									'placeholder' => 'tempat lahir',
 									'autocomplete' => 'off',
 									'required',
@@ -206,7 +206,7 @@
 					</p>
 				</div>
 
-				<div class="card-footer border-dark bg-transparent">
+				<div class="card-footer border-dark bg-transparent mb-0 pb-0">
 					<div class="form-row">
 						<div class="form-group col-sm-offset-4 col-md-4">
 							{!! Html::linkroute('guru.index', 'Batal', null, [

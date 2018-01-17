@@ -12,7 +12,7 @@
 					Daftar
 				</div>
 
-				<div class="card-body">
+				<div class="card-body mb-0 pb-0">
 					<div class="form-row">
 						<div class="col-md-4">
 							<h4 class="card-title">Data Nilai</h4>
@@ -28,13 +28,13 @@
 								])
 							!!}
 								{{ Form::submit('Tambah', [
-										'class' => 'btn btn-outline-primary btn-block',
+										'class' => 'btn btn-outline-primary btn-block mb-2',
 									])
 								}}
 							{!! Form::close() !!}
 						</div>
 					</div>
-					<p class="card-text">
+					<p class="card-text mb-0 pb-0">
 						<div class="table-responsive">
 							<table class="table table-striped table-hover">
 								<thead>

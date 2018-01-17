@@ -30,7 +30,7 @@
 					Daftar Raport {{ $gurux->nip }}
 				</div>
 
-				<div class="card-body">
+				<div class="card-body mb-0 pb-0">
 					<div class="form-row">
 						<div class="col-md-4">
 							<h4 class="card-title">{{ $gurux->nama_lengkap }}</h4>
@@ -44,9 +44,9 @@
 						</div>
 					</div>
 
-					<p class="card-text">
+					<p class="card-text mb-0 pb-0">
 						<div class="table-responsive">
-							<table class="table table-striped table-hover table-bordered mb-0 mt-0 pb-0 pt-0">
+							<table class="table table-striped table-hover table-bordered">
 								<thead>
 									<tr>
 										<th class="text-center">#</th>

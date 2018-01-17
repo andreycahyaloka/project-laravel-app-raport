@@ -12,7 +12,7 @@
 					Daftar Siswa {{ $kodenilaixidx->kodenilai }}
 				</div>
 
-				<div class="card-body">
+				<div class="card-body mb-0 pb-0">
 					<div class="form-row">
 						<div class="col-md-4">
 							<h4 class="card-title">Raport {{ $kodenilaixidx->kodenilai }}</h4>
@@ -27,16 +27,16 @@
 								])
 							!!}
 								{{ Form::submit('Kembali', [
-										'class' => 'btn btn-outline-primary btn-block',
+										'class' => 'btn btn-outline-primary btn-block mb-2',
 									])
 								}}
 							{!! Form::close() !!}
 						</div>
 					</div>
 
-					<p class="card-text">
+					<p class="card-text mb-0 pb-0">
 						<div class="table-responsive">
-							<table class="table table-striped table-hover mb-0 mt-0 pb-0 pt-0">
+							<table class="table table-striped table-hover">
 								<thead>
 									<tr>
 										<th class="text-center">#</th>

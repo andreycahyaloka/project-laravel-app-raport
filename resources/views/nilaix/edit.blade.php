@@ -12,9 +12,9 @@
 					Edit {{ $nilaix->kodenilai }}
 				</div>
 
-				<div class="card-body">
+				<div class="card-body mb-0 pb-0">
 					<h4 class="card-title">Edit Data</h4>
-					<p class="card-text">
+					<p class="card-text mb-0 pb-0">
 						{!! Form::model($nilaix, [
 								'route' => ['nilai.update', $nilaix->id],
 								'method' => 'PUT',
@@ -79,7 +79,7 @@
 				<div class="card-header border-dark text-center">
 					Opsi
 				</div>
-				<div class="card-body">
+				<div class="card-body mb-0 pb-0">
 					<div class="form-group">
 						<div>
 							{{ Form::label('updated_at', 'Terakhir Diperbarui:') }}
@@ -90,7 +90,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="card-footer border-dark bg-transparent">
+				<div class="card-footer border-dark bg-transparent mb-0 pb-0">
 				<div class="form-row">
 						<div class="form-group col-md-6">
 							{!! Html::linkroute('nilai.show', 'Batal', [$nilaix->kodenilai], [

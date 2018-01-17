@@ -12,10 +12,10 @@
 					Tambah
 				</div>
 
-				<div class="card-body">
+				<div class="card-body mb-0 pb-0">
 					<h4 class="card-title">Data Nilai</h4>
 					<h6 class="card-subtitle mb-2 text-muted">Masukkan Data Nilai</h6>
-					<p class="card-text">
+					<p class="card-text mb-0 pb-0">
 						{!! Form::open([
 								'route' => ['nilai.store'],
 								'method' => 'POST',
@@ -76,7 +76,7 @@
 					</p>
 				</div>
 
-				<div class="card-footer border-dark bg-transparent">
+				<div class="card-footer border-dark bg-transparent mb-0 pb-0">
 					<div class="form-row">
 						<div class="form-group col-sm-offset-4 col-md-4">
 							{!! Html::linkroute('nilai.index', 'Batal', null, [

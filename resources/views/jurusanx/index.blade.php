@@ -12,7 +12,7 @@
 					Daftar
 				</div>
 
-				<div class="card-body">
+				<div class="card-body mb-0 pb-0">
 					<div class="form-row">
 						<div class="col-md-4">
 							<h4 class="card-title">Data Jurusan</h4>
@@ -21,7 +21,7 @@
 							</h6>
 						</div>
 					</div>
-					<p class="card-text">
+					<p class="card-text mb-0 pb-0">
 						<div class="table-responsive">
 							<table class="table table-striped table-hover">
 								<thead>
@@ -120,7 +120,7 @@
 					</p>
 				</div>
 
-				<div class="card-footer border-dark bg-transparent">
+				<div class="card-footer border-dark bg-transparent mb-0 pb-0 mt-0 pt-0">
 					{!! $jurusanx->links(); !!}
 				</div>
 			</div>
@@ -133,8 +133,8 @@
 					Tambah Jurusan
 				</div>
 
-				<div class="card-body">
-					<p class="card-text">
+				<div class="card-body mb-0 pb-0">
+					<p class="card-text mb-0 pb-0">
 						{!! Form::open([
 								'route' => ['jurusan.store'],
 								'method' => 'POST',

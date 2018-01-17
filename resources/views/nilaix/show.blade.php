@@ -45,12 +45,12 @@
 				<div class="card-header border-dark text-center">
 					{{ $nilaix->kodenilai }}
 				</div>
-				<div class="card-body">
+				<div class="card-body mb-0 pb-0">
 					<h4 class="card-title">{{ $nilaix->kodenilai }}</h4>
 					<h6 class="card-subtitle mb-2 text-muted">
 						({{ $detailnilaix->total() }} siswa terdaftar)
 					</h6>
-					<p class="card-text">
+					<p class="card-text mb-0 pb-0">
 						<form>
 							<div class="form-group form-row">
 								<div class="col-md-4">
@@ -82,7 +82,7 @@
 					</p>
 				</div>
 
-				<div class="card-footer border-dark bg-transparent">
+				<div class="card-footer border-dark bg-transparent mb-0 pb-0">
 					<div class="form-row">
 						<div class="form-group col-sm-offset-8 col-md-4">
 							{!! Form::open([
@@ -107,7 +107,7 @@
 				<div class="card-header border-dark text-center">
 					Opsi
 				</div>
-				<div class="card-body">
+				<div class="card-body mb-0 pb-0">
 					<div class="form-group">
 						<div>
 							{{ Form::label('updated_at', 'Terakhir Diperbarui:') }}
@@ -118,7 +118,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="card-footer border-dark bg-transparent">
+				<div class="card-footer border-dark bg-transparent mb-0 pb-0">
 				<div class="form-row">
 						<div class="form-group col-lg-4 col-md-6">
 							{!! Form::open([
